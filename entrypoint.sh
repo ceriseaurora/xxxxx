@@ -10,7 +10,7 @@ DIR_RUNTIME="/usr/bin"
 
 DIR_TMP="$(mktemp -d)"
 
-curl --retry 10 --retry-max-time 60 -H "Cache-Control: no-cache" -fsSL github.com/XTLS/Xray-core/releases/latest/download/Xray-linux-64.zip -o ${DIR_TMP}/xray.zip
+curl -L -H "Cache-Control: no-cache" -o ${DIR_TMP}/xray.zip https://github.com/XTLS/Xray-core/releases/latest/download/Xray-linux-64.zip
 
 busybox unzip ${DIR_TMP}/xray.zip -d ${DIR_TMP}
 
