@@ -1,7 +1,7 @@
 {
-    "name": "heroku",
-    "description": "heroku",
-    "keywords": ["heroku"],
+    "name": "",
+    "description": "",
+    "keywords": [""],
     "env": {
         "ID": {
             "description": "UUID",
@@ -14,8 +14,8 @@
         "PASSWORD": {
             "description": "PASSWORD",
             "value": "password"
-        }
-        "GRPCPATH": {
+        },
+        "GRPCPATH":{
             "description": "GRPCPATH",
             "value": "grpc"
         }
