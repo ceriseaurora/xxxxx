@@ -1,7 +1,7 @@
 {
-    "name": "xxxxx",
-    "description": "xxxxx",
-    "keywords": ["xxxxx"],
+    "name": "heroku",
+    "description": "heroku",
+    "keywords": ["heroku"],
     "env": {
         "ID": {
             "description": "UUID",
